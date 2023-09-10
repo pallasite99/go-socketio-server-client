@@ -10,7 +10,7 @@ Kickstarter example to develop a golang based socket.io client and server
 1. Client side
 
 ```terminal
-PS C:\Users\Dell\OneDrive\Documents\GitHub\golang-socketio-client> go run .\go-client.go
+PS C:\Users\Dell\OneDrive\Documents\GitHub\golang-socketio-client> go run .\client\go-client.go
 Connected to WebSocket server
 Received message: Hello, Server!
 ```
@@ -18,7 +18,7 @@ Received message: Hello, Server!
 2. Server side
 
 ```terminal
-PS C:\Users\Dell\OneDrive\Documents\GitHub\golang-socketio-client> go run .\go-server.go
+PS C:\Users\Dell\OneDrive\Documents\GitHub\golang-socketio-client> go run .\server\go-server.go
 WebSocket server is running on ws://localhost:8080
 Client connected
 ```
